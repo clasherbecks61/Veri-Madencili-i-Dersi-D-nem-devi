@@ -19,3 +19,5 @@ Bu serpilme (dağılım) grafiği, müşterinin şirkette geçirdiği süre, öd
 
 NaN değerlerin (Boş veya eksik olan veriler) doldurulması ve modelleme için anlamsız olan `customerID` sütununun çıkartılmasından sonraki verinin son hali:
 ![Final Veri Tablosu](images/ekran4.png)
+
+Bu iki analizimiz, şirketin en büyük yarasının "yüksek fatura ödeyen, taahhütsüz (aylık) yeni müşteriler" olduğunu açıkça ortaya koymaktadır.
