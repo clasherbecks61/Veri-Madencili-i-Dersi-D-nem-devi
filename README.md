@@ -21,3 +21,25 @@ NaN değerlerin (Boş veya eksik olan veriler) doldurulması ve modelleme için 
 ![Final Veri Tablosu](images/ekran4.png)
 
 Bu iki analizimiz, şirketin en büyük yarasının "yüksek fatura ödeyen, taahhütsüz (aylık) yeni müşteriler" olduğunu açıkça ortaya koymaktadır.
+
+
+Ödevin 2.ci Kısmı
+1. Tamamlanmış Orange Proje Dosyası
+donemodevi2.ows dosyası projeye eklendi.
+
+2.Model Karşılaştırma Tablosu
+
+![Bkz.Modellerin hızlarının karşılaştırıldığı oran tablosu](images/ekran5.png)
+
+
+3. Hata analiz tablosu
+
+Bu sonuçlara göre; gerçekte şirkette kalmasına rağmen model tarafından yanlışlıkla
+"ayrılacak" olarak tahmin edilen (False Positive) müşteri sayısı 150'dir.
+
+![Bkz.Seçilen en başarılı modelin Karmaşıklık Matrisi sonucu](images/ekran6.png)
+
+4. Şirket İçin En Riskli Müşteri Profili (Tree Viewer Analizi)
+   
+Karar Ağacı algoritmasının oluşturduğu dallanmalar incelendiğinde, şirket için en yüksek ayrılma riskine sahip müşteri profili şunlardır:
+Aylık sözleşmesi (Month-to-month) bulunan, Fiber optik internet servisi kullanan ve şirketteki kalma süresi henüz çok düşük olan yeni müşterilerdir.
