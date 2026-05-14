@@ -39,7 +39,7 @@ Bu sonuçlara göre; gerçekte şirkette kalmasına rağmen model tarafından ya
 
 ![Bkz.Seçilen en başarılı modelin Karmaşıklık Matrisi sonucu](images/ekran6.png)
 
-4. Şirket İçin En Riskli Müşteri Profili (Tree Viewer Analizi)
+4. Şirket için en riskli müşteri profili
    
 Karar Ağacı algoritmasının oluşturduğu dallanmalar incelendiğinde, şirket için en yüksek ayrılma riskine sahip müşteri profili şunlardır:
 Aylık sözleşmesi (Month-to-month) bulunan, Fiber optik internet servisi kullanan ve şirketteki kalma süresi henüz çok düşük olan yeni müşterilerdir.
